@@ -17,11 +17,14 @@
     "@nuxtjs/axios": "^5.3.6"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
+    "@babel/plugin-transform-async-to-generator": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^23.6.0",
-    "jest": "^23.6.0",
+    "babel-jest": "^24.1.0",
+    "babel-plugin-transform-class-constructor-call": "^6.24.1",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.9",
     "vue-jest": "^3.0.2"
   }
 }
